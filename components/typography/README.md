@@ -13,12 +13,6 @@
 </m-typography>
 ```
 
-### Slots
-
-| Slot | Description |
-|------|-------------|
-| default | typography content |
-
 ## Body
 
 ### Props
@@ -84,6 +78,30 @@
 | Slot | Description |
 |------|-------------|
 | default | content |
+
+
+## Text
+
+### Markup
+
+```html
+<m-text tag="p" use="headline1">
+  Headline
+</m-text>
+```
+
+### Props
+
+| Prop | Type | Default | Description |
+|------|------|---------|-------------|
+| tag | String | span | HTML tag name |
+| use | String | - | typography style: headline1, headline2, headline3, headline4, headline5, headline6, subtitle1, subtitle2, body1, body2, caption, button, overline |
+
+### Slots
+
+| Slot | Description |
+|------|-------------|
+| default | typography content |
 
 ### Reference
 
