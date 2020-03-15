@@ -8,8 +8,9 @@ module.exports = merge(common, {
   mode: 'development',
   target: 'web',
   output: {
-    path: path.resolve(root + '/dist'),
     filename: '[name]/index.js',
-    libraryTarget: 'umd'
+    globalObject: 'this',
+    libraryTarget: 'umd',
+    path: path.resolve(root + '/dist')
   }
 })
