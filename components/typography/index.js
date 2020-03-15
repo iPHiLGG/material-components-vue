@@ -4,6 +4,7 @@ import Caption from './Caption.vue'
 import Headline from './Headline.vue'
 import Overline from './Overline.vue'
 import Subheading from './Subheading.vue'
+import Text from './Text'
 import Typography from './Typography.vue'
 import './styles.scss'
 
@@ -17,6 +18,7 @@ const plugin = {
     vm.component('m-typo-headline', Headline)
     vm.component('m-typo-overline', Overline)
     vm.component('m-typo-subheading', Subheading)
+    vm.component('m-text', Text)
     vm.component('m-typography', Typography)
   }
 }
